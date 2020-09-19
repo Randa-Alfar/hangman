@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="myNewJavaScript.js"></script>
+        
+    </head>
+    <body>
+      
+        <div id="container">
+        <h1>HANGMAN</h1>
+        <p>VANILLA JAVASCRIPT HANGMAN GAME</p>
+        <p>Use the alphabet below to guess the word, or click hint to get a Solution.</p>
+        <button id="solution"></button>
+            <br>
+            <br>
+        <div id="container_alpha">
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('a' , word);">a</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('b' , word);">b</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('c' , word);">c</div>
+            
+            <div  onclick="var word = document.getElementById('solution').innerHTML;comparison('d' , word);">d</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('e' , word);">e</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('f' , word);">f</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('g' , word);">g</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('h' , word);">h</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('i' , word);">i</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('j' , word);">j</div>
+            
+            <div onclick="var word =document.getElementById('solution').innerHTML;comparison('k' , word);">k</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('l' , word);">l</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('m' , word);">m</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('n' , word);">n</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('o' , word);">o</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('p' , word);">p</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('q' , word);">q</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('r' , word);">r</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('s' , word);">s</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('t' , word);">t</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('u' , word);">u</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('v' , word);">v</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('w' , word);">w</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('x' , word);">x</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('y' , word);">y</div>
+            
+            <div onclick="var word = document.getElementById('solution').innerHTML;comparison('z' , word);">z</div>
+        </div>
+            <p id="category ">The Chosen Category Is <span id="category"></span></p>
+            <p id="spaces"></p>
+            <p id="lives_word">You have <span id="live">10</span> live</p>
+            <p id="text_win"></p>
+            
+            <button onclick="hinte();">Hinte</button>
+            <button id="start" onclick="start();">start</button>
+            <button id="try_again" onclick="start();">Play Again</button>
+            
+        </div>
+    </body>
+</html>
